@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BULLSEYE is a League of Legends competitive intelligence, post-match analytics, and coaching decision-support platform for professional esports operations.">
+  <title>BULLSEYE — League of Legends Competitive Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Spectral:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="BULLSEYE home">BULLSEYE</a>
+    <nav aria-label="Primary navigation">
+      <a href="#product">Product</a>
+      <a href="#api">Riot API</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">LEAGUE OF LEGENDS · COMPETITIVE INTELLIGENCE</div>
+      <h1>Evidence for better review.<br>Context for better decisions.</h1>
+      <p class="lead">BULLSEYE is a post-match analytics and coaching decision-support platform built for professional esports operations.</p>
+      <div class="principle">
+        <span>PRODUCT PRINCIPLE</span>
+        <strong>Descriptive, never conclusive.</strong>
+      </div>
+    </section>
+
+    <section id="product" class="section split">
+      <div>
+        <div class="section-kicker">01 · PRODUCT</div>
+        <h2>Competitive analysis that remains auditable.</h2>
+      </div>
+      <div class="body-copy">
+        <p>BULLSEYE helps coaches and analysts organize League of Legends data into evidence that can be inspected over time. It presents sample size, context, observed statistics, supporting matches and limitations while leaving interpretation and final decisions to the coaching staff.</p>
+        <p>The platform includes player profiles and dossiers, champion-pool analysis, match and VOD review, competitive-meta analysis, draft context, role-relative comparisons, player discovery and evidence/hypothesis workflows.</p>
+      </div>
+    </section>
+
+    <section class="flow" aria-label="BULLSEYE analytical flow">
+      <div class="flow-item"><span>01</span><strong>DATA</strong></div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-item"><span>02</span><strong>EVIDENCE</strong></div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-item"><span>03</span><strong>CONTEXT</strong></div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-item"><span>04</span><strong>PRIORITY</strong></div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-item"><span>05</span><strong>DECISION SUPPORT</strong></div>
+    </section>
+
+    <section id="api" class="section split">
+      <div>
+        <div class="section-kicker">02 · RIOT API USAGE</div>
+        <h2>Ranked context, not real-time gameplay assistance.</h2>
+      </div>
+      <div class="body-copy">
+        <p>The Riot Games API is used as a complementary source for ranked League of Legends context. BULLSEYE uses account identity, ranked history, match/timeline data and ranked status to support historical and post-match analysis.</p>
+        <div class="api-list">
+          <div><code>Account-V1</code><span>Riot ID and PUUID resolution</span></div>
+          <div><code>Summoner-V4</code><span>League account metadata</span></div>
+          <div><code>Match-V5</code><span>Ranked match history and timelines</span></div>
+          <div><code>League-V4</code><span>Ranked context</span></div>
+          <div><code>Spectator-V5</code><span>Known-account in-game status only</span></div>
+          <div><code>Data Dragon</code><span>Official static game assets and metadata</span></div>
+        </div>
+        <p>Professional tournament, Tournament Realm and scrim data are obtained separately through authorized Riot-provisioned GRID access and remain governed as a separate data domain.</p>
+      </div>
+    </section>
+
+    <section class="section guardrails">
+      <div class="section-kicker">03 · PRODUCT GUARDRAILS</div>
+      <h2>Built for review between games.</h2>
+      <div class="cards">
+        <article>
+          <span>NO</span>
+          <h3>Real-time instructions</h3>
+          <p>BULLSEYE does not tell players what action to take during an active match.</p>
+        </article>
+        <article>
+          <span>NO</span>
+          <h3>Automated gameplay</h3>
+          <p>The product does not control, automate or alter gameplay.</p>
+        </article>
+        <article>
+          <span>NO</span>
+          <h3>Betting or gambling</h3>
+          <p>BULLSEYE is not a wagering, gambling or odds product.</p>
+        </article>
+        <article>
+          <span>NO</span>
+          <h3>Raw-data resale</h3>
+          <p>The service is not a pass-through or resale layer for Riot or provider data.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split status">
+      <div>
+        <div class="section-kicker">04 · STATUS</div>
+        <h2>Active professional product development.</h2>
+      </div>
+      <div class="body-copy">
+        <p>BULLSEYE is already functional as an internal analytical platform. Current engineering work focuses on continuous compute automation so newly authorized data can safely and deterministically update the appropriate analytical products.</p>
+        <p>The public site intentionally contains no private team data, source code, credentials, raw match payloads or confidential scrim information.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>BULLSEYE</strong>
+      <span>Competitive intelligence for League of Legends.</span>
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="riot.txt">Riot verification</a>
+    </div>
+    <p class="riot-notice">BULLSEYE is an independent analytics project. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. BULLSEYE is not endorsed by Riot Games and does not represent Riot Games.</p>
+  </footer>
+</body>
+</html>
